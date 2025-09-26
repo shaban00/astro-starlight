@@ -1,17 +1,17 @@
 ---
-title: Welcome to Starlight
-description: Get started building your docs site with Starlight.
+title: LIL Engineering Docs
+description: Collecting knowlege and insights for our future selves.
 template: splash
 hero:
-  tagline: Congrats on setting up a new Starlight project!
+  tagline: Imitate, Assimilate, Innovate<br/>—Clark Terry
   image:
-    file: ../../assets/houston.webp
+    file: ../../assets/logo.svg
   actions:
-    - text: Example Guide
+    - text: Guides
       link: /guides/example/
       icon: right-arrow
-    - text: Read the Starlight docs
-      link: https://starlight.astro.build
+    - text: Reference
+      link: /reference/example/
       icon: external
       variant: minimal
 ---
@@ -21,16 +21,22 @@ import { Card, CardGrid } from '@astrojs/starlight/components';
 ## Next steps
 
 <CardGrid stagger>
-	<Card title="Update content" icon="pencil">
-		Edit `src/content/docs/index.mdx` to see this page change.
+	<Card title="Lab Notes" icon="pencil">
+		Journaling important problems, questions, findings and insights resulting from our research and development at the lab. Lab notes distill our learnings into publishable content.
 	</Card>
-	<Card title="Add new content" icon="add-document">
-		Add Markdown or MDX files to `src/content/docs` to create new pages.
+	<Card title="Experiments" icon="pencil">
+		Plans and artifacts of experimentation produced by the engineering team.
 	</Card>
-	<Card title="Configure your site" icon="setting">
-		Edit your `sidebar` and other config in `astro.config.mjs`.
+	<Card title="Challenges" icon="pencil">
+		Learning oriented guides and tutorials to quickly get up and running with technologies that might be used at LIL. Challenges focus on acquisition of knowledge and skill.
 	</Card>
-	<Card title="Read the docs" icon="open-book">
-		Learn more in [the Starlight Docs](https://starlight.astro.build/).
+	<Card title="How-Tos" icon="add-document">
+		Instructions for infrequent but complex tasks that would otherwise require research or trial and error.
+	</Card>
+	<Card title="Explanations" icon="setting">
+		Notes explaining practical, conceptual, and theoretical topics aimed at helping the reader develop understanding. 
+	</Card>
+	<Card title="Reference" icon="open-book">
+		Technical descriptions of APIs, systems, and infrastructure aimed at supporting development and operations.
 	</Card>
 </CardGrid>
